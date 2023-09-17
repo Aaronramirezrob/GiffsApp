@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { GifsService } from 'src/app/gifs/services/gifs.service';
+import { JitEvaluator } from '@angular/compiler';
 
 @Component({
   selector: 'shared-sidebar',
